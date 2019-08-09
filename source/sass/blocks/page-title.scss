@@ -1,0 +1,38 @@
+.page-title {
+  font-size: 36px;
+  line-height: 60px;
+  color: $color_dark-gray-title;
+  font-weight: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-bottom: 28px;
+  padding-top: 15px;
+
+  &--form {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-title {
+    margin-top: 38px;
+    margin-bottom: 80px;
+    font-size: 60px;
+    line-height: 60px;
+
+    &--form {
+      margin-left: -42px;
+      margin-bottom: 55px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-title {
+    margin-top: 54px;
+  }
+
+  .page-title--form {
+    margin-left: 0;
+  }
+}
